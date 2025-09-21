@@ -103,12 +103,13 @@ graph TD
     classDef start fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
     classDef process fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
     classDef decision fill:#fff3e0,stroke:#f57c00,stroke-width:2px
-    classDef end fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    classDef final fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+
 
     class START,GREET start
     class QUESTION,COLLECT,CLARIFY,SUMMARIZE,CONFIRM process
     class EDIT decision
-    class FINAL,SEND end
+    class FINAL,SEND final
 ```
 
 ## System Architecture for Milestone 1
